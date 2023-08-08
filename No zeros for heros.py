@@ -7,3 +7,5 @@ def no_boring_zeros(n):
             if n[-1] == "0":
                 n = n.rstrip('0')
         return int(n)
+    
+print(no_boring_zeros(0))
